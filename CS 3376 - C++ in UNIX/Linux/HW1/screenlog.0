@@ -1,0 +1,442 @@
+{cslinux1:~} echo moving to files
+moving to files
+{cslinux1:~} cd Linux/HW1
+{cslinux1:~/Linux/HW1} echo showing files [K
+showing files
+{cslinux1:~/Linux/HW1} -ls -l
+bash: -ls: command not found
+{cslinux1:~/Linux/HW1} ls -l
+total 25
+-rw-r--r--+ 1 exj140630 sn 341 Jan 21 16:20 compile.sh
+-rw-r--r--+ 1 exj140630 sn 333 Jan 21 14:01 HW1.cc
+-rw-r--r--+ 1 exj140630 sn 111 Jan 21 14:03 HW1_P2.cc
+-rw-r--r--+ 1 exj140630 sn 559 Jan 21 14:21 run.sh
+-rw-------+ 1 exj140630 sn 226 Jan 23 16:40 screenlog.0
+{cslinux1:~/Linux/HW1} echo here's[K[K[K[K[K[Ktheres some s[Kof our log there already
+theres some of our log there already
+{cslinux1:~/Linux/HW1} echo viewing files
+viewing files
+{cslinux1:~/Linux/HW1} emacs com[K[K[KHW1.cc
+[?1049h[34l[?1h=[H[J[24;1H[K[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...[K[H
+[34h[?25h[34l[24;20H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...done[K[H[3mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[23m
+M
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[34m#include[0m[39;49m [32m"HW1_P2.cc"[39;49m[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m([32mint[39;49m [33margc[39;49m, [32mchar[39;49m* [33margv[39;49m[])[K
+{[K
+  [35mstd[39;49m::cout<<[32m"I have "[39;49m<<argc<<[32m" args:\n"[39;49m;[K
+  [33m//loops through all args outputting                                           [39;49m
+M
+  [1m[36mfor[0m[39;49m ([32mint[39;49m [33mi[39;49m=0;i<argc;i++)[K
+    {[K
+      [35mstd[39;49m::cout<<argv[i]<<[32m"\n"[39;49m;[K
+    }[K
+  [33m//states it finished outputting and hands to part 2                           [39;49m
+M
+  [35mstd[39;49m::cout<<[32m"Fini!\n"[39;49m;[K
+  hw2(argv);[K
+  [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mHW1.cc      [0m[39;49m[23m[3m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~/Linux/HW1} e[Kecho 
+
+{cslinux1:~/Linux/HW1} emacs HW1_P2.cc
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...[K[H
+[34h[?25h[34l[24;20H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...done[K[H[3mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[23m
+M
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36mstatic[0m[39;49m [32mvoid[39;49m [1m[34mhw2[0m[39;49m([32mchar[39;49m* [33ms[39;49m[])[K
+{[K
+  [35mstd[39;49m::cerr <<[32m"I am inside part2 holding this in stderr\n"[39;49m;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mHW1_P2.cc   [0m[39;49m[23m[3m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~/Linux/HW1} echo 
+
+{cslinux1:~/Linux/HW1} emacs run.sh
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lSetting up indent for shell type bash[K[H
+[34h[?25h[34l[24;1H[?25lsetting up indent stuff[K[H
+[34h[?25h[34l[24;1H[?25lIndentation variables are now local.[H
+[34h[?25h[34l[24;13H[?25lsetup for shell type bash[H
+[34h[?25h[34l[24;1H[?25lIndentation setup for shell type bash[K[H[3mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[23m
+M
+[33m#!/bin/[39;49m[1m[36mbash[0m[39;49m[33m                                                                     [39;49m
+M
+[33m#Runs homework 1                                                                [39;49m
+M
+[K
+[33m#running with 0 args                                                            [39;49m
+M
+[1m[34mecho[0m[39;49m Running [32m'HW1'[39;49m with 0 args:[K
+./HW1.exe 1>>stdout.log 2>>stderr.log[K
+[1m[34mecho[0m[39;49m   stdout appended to stdout.log[K
+[1m[34mecho[0m[39;49m   stderr appended to stderr.log[K
+[1m[34mecho[0m[39;49m[K
+[K
+[33m#running with 1 args                                                            [39;49m
+M
+[1m[34mecho[0m[39;49m Running [32m'HW1'[39;49m with 1 args:[K
+./HW1.exe a 1>>stdout.log 2>>stderr.log[K
+[1m[34mecho[0m[39;49m   stdout appended to stdout.log[K
+[1m[34mecho[0m[39;49m   stderr appended to stderr.log[K
+[1m[34mecho[0m[39;49m[K
+[K
+[33m#running with 5 args                                                            [39;49m
+M
+[1m[34mecho[0m[39;49m Running [32m'HW1'[39;49m with 5 args:[K
+./HW1.exe a b c d e 1>>stdout.log 2>>stderr.log[K
+[1m[34mecho[0m[39;49m   stdout appended to stdout.log[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mrun.sh      [0m[39;49m[23m[3m   Top L1     (Shell-script[bash]) --------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~/Linux/HW1} echo 
+
+{cslinux1:~/Linux/HW1} emacs compile.sh
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lSetting up indent for shell type bash[K[H
+[34h[?25h[34l[24;1H[?25lsetting up indent stuff[K[H
+[34h[?25h[34l[24;1H[?25lIndentation variables are now local.[H
+[34h[?25h[34l[24;13H[?25lsetup for shell type bash[H
+[34h[?25h[34l[24;1H[?25lIndentation setup for shell type bash[K[H[3mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[23m
+M
+[33m#!/bin/[39;49m[1m[36mbash[0m[39;49m[33m                                                                     [39;49m
+M
+[33m#compile  script for first homework                                             [39;49m
+M
+[K
+[33mTEMPDIR[39;49m=/scratch; [1m[34mexport[0m[39;49m TMPDIR[K
+[1m[34mecho[0m[39;49m Setting TEMPDIR environment var to /scratch[K
+[K
+[33m#state HW1 compiled                                                             [39;49m
+M
+g++ -c HW1.cc[K
+[1m[34mecho[0m[39;49m Compiling HW1.cc[K
+[K
+[33m#state HW1_P2 compiled                                                          [39;49m
+M
+g++ -c HW1_P2.cc[K
+[1m[34mecho[0m[39;49m Compiling HW1_P2.cc[K
+[K
+[33m#linking                                                                        [39;49m
+M
+[1m[34mecho[0m[39;49m Linking files to create HW1 exe[K
+g++ -o HW1.exe HW1.o HW1_P2.o[K
+[1m[34mecho[0m[39;49m Fini![K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mcompile.sh  [0m[39;49m[23m[3m   All L1     (Shell-script[bash]) --------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~/Linux/HW1}  echo
+
+{cslinux1:~/Linux/HW1} echo time to run
+time to run
+{cslinux1:~/Linux/HW1} sh compile.sh
+Setting TEMPDIR environment var to /scratch
+Compiling HW1.cc
+Compiling HW1_P2.cc
+Linking files to create HW1 exe
+Fini!
+{cslinux1:~/Linux/HW1} sh run.sh
+Running HW1 with 0 args:
+stdout appended to stdout.log
+stderr appended to stderr.log
+
+Running HW1 with 1 args:
+stdout appended to stdout.log
+stderr appended to stderr.log
+
+Running HW1 with 5 args:
+stdout appended to stdout.log
+stderr appended to stderr.log
+
+{cslinux1:~/Linux/HW1} more stdout.log
+I have 1 args:
+./HW1.exe
+Fini!
+I have 2 args:
+./HW1.exe
+a
+Fini!
+I have 6 args:
+./HW1.exe
+a
+b
+c
+d
+e
+Fini!
+{cslinux1:~/Linux/HW1} more stderr.log
+I am inside part2 holding this in stderr
+I am inside part2 holding this in stderr
+I am inside part2 holding this in stderr
+{cslinux1:~/Linux/HW1} echo all done
+all done
+{cslinux1:~/Linux/HW1} exit

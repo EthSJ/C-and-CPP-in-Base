@@ -1,0 +1,60 @@
+<First Name>F.</First Name>
+<Last Name>Flinstone</Last Name>
+<HouseNum>5806</HouseNum>
+<StreetName>PebbleRd</StreetName>
+<AptNum>345</AptNum>
+<City>Stonecity</City>
+<State>TX</State>
+<Zip5>75080</Zip5>
+
+<First Name>W </First Name>
+<Last Name>Flinstone</Last Name>
+<Suffix>IV</Suffix>
+<HouseNum>5806</HouseNum>
+<StreetName>PebbleRd</StreetName>
+<AptNum>345</AptNum>
+<City>Stonecity</City>
+<State>TX</State>
+<Zip5>75080</Zip5>
+<Zip4>4321</Zip4>
+
+<First Name>Barney</First Name>
+<Last Name>Rubble</Last Name>
+<Suffix>Jr</Suffix>
+<HouseNum>106B</HouseNum>
+<StreetName>RockyRoad</StreetName>
+<City>Stonecity</City>
+<State>TX</State>
+<Zip5>75080</Zip5>
+<Zip4>9384</Zip4>
+
+<First Name>Betty</First Name>
+<Last Name>Rubble</Last Name>
+<HouseNum>106B</HouseNum>
+<StreetName>RockyRoad</StreetName>
+<City>Stonecity</City>
+<State>TX</State>
+<Zip5>75080</Zip5>
+
+<HouseNum>9000</HouseNum>
+<StreetName>SomeStreet</StreetName>
+<City>Dallas</City>
+<State>TX</State>
+<Zip5>75080</Zip5>
+<Zip4>4872</Zip4>
+
+<First Name>B.</First Name>
+<Last Name>Wayne</Last Name>
+<Suffix>III</Suffix>
+<City>Gotham</City>
+<State>TX</State>
+<Zip5>88234</Zip5>
+<Zip4>3664</Zip4>
+
+<First Name>B.</First Name>
+<Last Name>Wayne</Last Name>
+<Suffix>III</Suffix>
+<HouseNum>1000</HouseNum>
+<StreetName>GothamManor</StreetName>
+<City>Gotham</City>
+<State>TX</State>

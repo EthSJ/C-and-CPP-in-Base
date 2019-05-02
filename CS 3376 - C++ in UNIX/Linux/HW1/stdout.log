@@ -1,0 +1,15 @@
+I have 1 args:
+./HW1.exe
+Fini!
+I have 2 args:
+./HW1.exe
+a
+Fini!
+I have 6 args:
+./HW1.exe
+a
+b
+c
+d
+e
+Fini!

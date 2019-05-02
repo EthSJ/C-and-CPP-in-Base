@@ -1,0 +1,13 @@
+
+
+BEFORE ANYTHING MAX THE SIZE OF PUTTY OR WHATEVER YOU'RE USING! YOU HAVE BEEN WARNED!
+
+1) Determine which of the following sound good:
+a - run the executable goto 2
+b - make. goto 3
+
+2) execute the executable. Wait a while for it to start. It can take a while.
+
+3) Make: change " -L ~/Linux/lib " to point to your CDK stashed lib. run make. run make clean. run it. Wait a while for it to start. It can take a while.
+
+4) So you wanna quit? ^C. Wait for it to empty out of everything.

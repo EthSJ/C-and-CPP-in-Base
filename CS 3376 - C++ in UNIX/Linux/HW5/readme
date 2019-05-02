@@ -1,0 +1,23 @@
+Ethan Johnson
+
+
+Step 1:
+     untar. Congratz, you already did this!
+     If you see ./HW5d skip to 2.
+
+Step 1a:
+     Run "make"
+
+Step 2:
+     Wisely choose daemon mode or nondaemon mode with -d
+     That is ./HW5d or ./HW5d -d.
+     
+
+Step 3:
+     run down your grading test. I don't have it. I dunno what you're gonna do
+
+Step 4:	
+     Get up and yell, "KHAN!"
+
+Step 5:
+     sit back down, conclude business, and "make clean". This won't delete the log.

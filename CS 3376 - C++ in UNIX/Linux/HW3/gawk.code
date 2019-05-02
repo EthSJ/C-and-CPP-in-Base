@@ -1,0 +1,8 @@
+
+#CS 3376
+
+BEGIN { FS = " "};
+{total+=$1};
+{sum+=$4};
+END { print total, sum }
+

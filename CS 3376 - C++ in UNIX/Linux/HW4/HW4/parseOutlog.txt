@@ -1,0 +1,7 @@
+Operating in parse mode.
+
+Bad name. . . skipping to newline.
+Bad street address. . . Skipping to newline
+Bad location line. . . Skipping to newline
+
+Parse Successful!
